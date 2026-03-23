@@ -1,35 +1,31 @@
 import Navbar from './components/Navbar';
 import You from './components/You';
-import Education from './components/Education';
 import ShortProfile from './components/ShortProfile';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Certifications from './components/Certifications';
 import Experience from './components/Experience';
+import CompetitiveProgramming from './components/CompetitiveProgramming';
+import OpenSource from './components/OpenSource';
+import Blog from './components/Blog';
+import Research from './components/Research';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-{/* Introduction & Summary, 
-About Me ,
-Skills & Technologies,
-Projects, 
-Certifications & Courses,
-Experience (Internships & Work), 
-Competitive Programming & Hackathons, 
-Open Source Contributions (if any), 
-Blog & Technical
-Writing (Optional), 
-Research Publication/Patent, 
-Contact Section, 
-downloadable resume (PDF format). */}
-
       <Navbar />
       <You />
       <ShortProfile />
+      <Skills />
       <Projects />
-      {/* <Education /> */}
+      <Certifications />
       <Experience />
+      <CompetitiveProgramming />
+      <OpenSource />
+      <Blog />
+      <Research />
       <Contact />
       <Footer />
     </>

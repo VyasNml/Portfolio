@@ -180,7 +180,7 @@ ul {
 
 .hero-label {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   color: var(--text-secondary);
   margin-bottom: 1rem;
   letter-spacing: 1px;
@@ -188,8 +188,8 @@ ul {
 
 .hero-title {
   font-family: var(--font-mono);
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 4.5rem;
+  font-weight: 800;
   line-height: 1.15;
   margin-bottom: 1.5rem;
 }
@@ -201,7 +201,7 @@ ul {
 
 .hero-description {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 2rem;
@@ -273,14 +273,14 @@ ul {
 
 .profile-image-wrapper {
   position: relative;
-  width: 380px;
-  height: 380px;
+  width: 420px;
+  height: 420px;
 }
 
 .profile-image-wrapper img {
-  width: 340px;
-  height: 340px;
-  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  border-radius: 80%;
   object-fit: cover;
   position: absolute;
   top: 50%;
@@ -302,10 +302,10 @@ ul {
 
 .profile-ring-inner {
   position: absolute;
-  top: 8px;
+  top: 13px;
   left: 8px;
   right: 8px;
-  bottom: 8px;
+  bottom: 13px;
   border-radius: 50%;
   border: 2px solid var(--accent);
   opacity: 0.5;

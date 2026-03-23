@@ -1,16 +1,11 @@
-import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { useState } from "react";
 import { IoChevronForward } from 'react-icons/io5';
-import { SiLeetcode } from "react-icons/si";
 import profileImg from '../assets/profile.png';
+import Popup from "./popup.jsx";
+import cv from "../assets/cv.pdf"
 
 const You = () => {
-  const socialLinks = [
-    // { icon: <FaFacebookF />, href: '#', label: 'Facebook' },
-    // { icon: <FaInstagram />, href: '#', label: 'Instagram' },
-    { icon: <SiLeetcode /> , href: 'https://codolio.com/profile/VyasNml', label: 'Coding Portfolio' },
-    { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/in/vyasnademmal/', label: 'LinkedIn' },
-    { icon: <FaGithub />, href: 'https://github.com/VyasNml', label: 'GitHub' },
-  ];
+  const [showPopup, setShowPopup] = useState(false);
 
   return (
     <section className="hero" id="professional">
@@ -23,28 +18,17 @@ const You = () => {
             <span className="name">Vyas</span>
             <span className="name">Nademmal</span>
           </h1>
-          {/* <p className="hero-description">
+          <p className="hero-description">
             IT Specialist &amp; Full-Stack Developer | Pragmatic,
             delivery-oriented | Fintech &amp; Cloud | India
-          </p> */}
+          </p>
 
           <div className="hero-actions">
-            <button className="cv-btn">
+            
+            <button className="cv-btn" onClick={() => setShowPopup(true)}>
               VIEW CV <IoChevronForward />
             </button>
 
-            <div className="social-icons">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="social-icon"
-                  aria-label={social.label}
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div>
           </div>
         </div>
 
@@ -56,6 +40,16 @@ const You = () => {
           </div>
         </div>
       </div>
+
+      {/* CV Popup component */}
+      {showPopup && (
+        <Popup
+          title="My CV"
+          pdfUrl={cv}
+          onClose={() => setShowPopup(false)}
+        />
+      )}
+
       <div className="contact-grid-bg" />
     </section>
   );
