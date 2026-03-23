@@ -1,6 +1,4 @@
 import {
-  SiJavascript,
-  SiTypescript,
   SiReact,
   SiNextdotjs,
   SiNodedotjs,
@@ -9,17 +7,20 @@ import {
   SiTailwindcss,
   SiDocker,
   SiMongodb,
-  SiPostgresql
+  SiPostgresql,
+  SiCplusplus,
+  SiC
 } from 'react-icons/si';
-import { FaAws } from 'react-icons/fa';
+import { FaAws, FaJava } from 'react-icons/fa';
 
 const skillsData = [
   {
     category: 'Languages',
     skills: [
-      { name: 'JavaScript', icon: <SiJavascript /> },
-      { name: 'TypeScript', icon: <SiTypescript /> },
-      { name: 'Python', icon: <SiPython /> }
+      { name: 'Python', icon: <SiPython /> },
+      { name: 'C++', icon: <SiCplusplus /> },
+      { name: 'C', icon: <SiC /> },
+      { name: 'Java', icon: <FaJava /> }
     ]
   },
   {
