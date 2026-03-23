@@ -13,7 +13,7 @@ const Contact = () => {
       </p>
 
       <div className="contact-actions">
-        <a href="mailto:hello@example.com" className="contact-btn primary">
+        <a href="mailto:vyasnml@gmail.com" className="contact-btn primary">
           Let's get in touch <FaTelegramPlane />
         </a>
       </div>
