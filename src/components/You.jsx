@@ -12,7 +12,7 @@ const You = () => {
       <div className="contact-grid-bg" />
       <div className="hero-content">
         <div className="hero-text">
-          <p className="hero-label">Big Data Engineer</p>
+          <p className="hero-label">Portfolio</p>
           <h1 className="hero-title">
             Hello I'm
             <span className="name">Vyas</span>
