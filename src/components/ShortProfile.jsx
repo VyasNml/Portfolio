@@ -9,7 +9,8 @@ const ShortProfile = () => {
         {/* Large card - Project showcase */}
         <div className="bento-card large">
           <p className="bento-text">
-            Developer building clean, reliable cloud, auction, and trading systems
+            {/* Developer building clean, reliable cloud, auction, and trading systems */}
+            Computer Science student with a focus on Data Science and Machine Learning. I enjoy the logic side of programming, specifically solving problems using C++ and building data-driven projects with Python.
           </p>
         </div>
 

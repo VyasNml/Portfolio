@@ -486,8 +486,9 @@ ul {
   z-index: 2;
   font-family: var(--font-mono);
   font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 1.5;
+  font-weight: 550;
+  line-height: 1.7;
+  padding-bottom: 2.1rem;
   color: var(--text-primary);
 }
 
