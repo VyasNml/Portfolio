@@ -1,22 +1,38 @@
-import { SiLeetcode, SiCodeforces } from 'react-icons/si';
+import { SiLeetcode, SiCodeforces, SiGeeksforgeeks, SiHackerrank } from 'react-icons/si';
 import { FaTrophy } from 'react-icons/fa';
 
 const cpData = [
   {
     platform: 'LeetCode',
-    handle: 'vyasn',
-    rating: 'Top 10%',
-    resolved: '400+ Problems',
+    handle: '@VyasNml',
+    // rating: '200+ Problems Solved',
+    // resolved: '200+ Problems',
     icon: <SiLeetcode />,
-    link: '#'
+    link: 'https://leetcode.com/u/VyasNml/'
   },
   {
     platform: 'Codeforces',
-    handle: 'vyasn',
-    rating: 'Specialist',
-    resolved: 'Max rating: 1450',
+    handle: '@VyasNml04',
+    // rating: 'Specialist',
+    // resolved: 'Max rating: 1450',
     icon: <SiCodeforces />,
-    link: '#'
+    link: 'https://codeforces.com/profile/VyasNml04'
+  },
+  {
+    platform: 'GeeksforGeeks',
+    handle: '@vyasnml',
+    // rating: 'Advanced',
+    // resolved: '100+ Problems',
+    icon: <SiGeeksforgeeks />,
+    link: 'https://www.geeksforgeeks.org/profile/vyasnml?tab=activity'
+  },
+  {
+    platform: 'HackerRank',
+    handle: '@vyasnml',
+    // rating: '5 Stars',
+    // resolved: 'Problem Solving',
+    icon: <SiHackerrank />,
+    link: 'https://www.hackerrank.com/profile/vyasnml'
   }
 ];
 
@@ -34,7 +50,7 @@ const CompetitiveProgramming = () => {
   return (
     <section className="section" id="competitive-programming">
       <h2 className="section-title">
-        Competitive Programming <span className="accent-text">& Hackathons</span>
+        <span className="accent-text">Coding Profiles</span>
       </h2>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
@@ -56,7 +72,7 @@ const CompetitiveProgramming = () => {
             </div>
           ))}
         </div>
-
+{/*
         <div>
            <h3 style={{ fontFamily: 'var(--font-mono)', fontSize: '1.5rem', textAlign: 'center', marginBottom: '2rem' }}>Hackathon Achievements</h3>
            <div className="education-grid">
@@ -77,6 +93,9 @@ const CompetitiveProgramming = () => {
              ))}
            </div>
         </div>
+*/}
+
+
       </div>
     </section>
   );

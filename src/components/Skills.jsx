@@ -9,9 +9,15 @@ import {
   SiMongodb,
   SiPostgresql,
   SiCplusplus,
-  SiC
+  SiC,
+  SiHtml5,
+  SiCss,
+  SiNumpy,
+  SiPandas,
+  SiScikitlearn,
 } from 'react-icons/si';
-import { FaAws, FaJava } from 'react-icons/fa';
+import { FaAws, FaJava, FaChartLine, FaChartBar } from 'react-icons/fa';
+
 
 const skillsData = [
   {
@@ -24,29 +30,30 @@ const skillsData = [
     ]
   },
   {
-    category: 'Frontend & Frameworks',
+    category: 'Web Technologies',
     skills: [
-      { name: 'React', icon: <SiReact /> },
-      { name: 'Next.js', icon: <SiNextdotjs /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss /> }
-    ]
-  },
-  {
-    category: 'Backend & Databases',
-    skills: [
+      { name: 'React.js', icon: <SiReact /> },
       { name: 'Node.js', icon: <SiNodedotjs /> },
-      { name: 'Express', icon: <SiExpress /> },
-      { name: 'MongoDB', icon: <SiMongodb /> },
-      { name: 'PostgreSQL', icon: <SiPostgresql /> }
+      { name: 'HTML', icon: <SiHtml5 /> },
+      { name: 'CSS', icon: <SiCss /> }
     ]
   },
   {
-    category: 'DevOps & Tools',
+    category: 'Libraries',
     skills: [
-      { name: 'Docker', icon: <SiDocker /> },
-      { name: 'AWS', icon: <FaAws /> }
+      { name: 'Numpy', icon: <SiNumpy /> },
+      { name: 'Pandas', icon: <SiPandas /> },
+      { name: 'Scikit-learn', icon: <SiScikitlearn /> },
+      // { name: 'PostgreSQL', icon: <SiPostgresql /> }
     ]
-  }
+  },
+  // {
+    // category: 'DevOps & Tools',
+    // skills: [
+      // { name: 'Docker', icon: <SiDocker /> },
+      // { name: 'AWS', icon: <FaAws /> }
+    // ]
+  // }
 ];
 
 const Skills = () => {

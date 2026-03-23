@@ -20,12 +20,12 @@ function App() {
       <ShortProfile />
       <Skills />
       <Projects />
-      <Certifications />
-      <Experience />
+      {/* <Certifications /> */}
+      {/* <Experience /> */}
       <CompetitiveProgramming />
-      <OpenSource />
-      <Blog />
-      <Research />
+      {/* <OpenSource /> */}
+      {/* <Blog /> */}
+      {/* <Research /> */}
       <Contact />
       <Footer />
     </>

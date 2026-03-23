@@ -19,8 +19,9 @@ const You = () => {
             <span className="name">Nademmal</span>
           </h1>
           <p className="hero-description">
-            IT Specialist &amp; Full-Stack Developer | Pragmatic,
-            delivery-oriented | Fintech &amp; Cloud | India
+            {/* IT Specialist &amp; Full-Stack Developer | Pragmatic, */}
+            {/* delivery-oriented | Fintech &amp; Cloud | India */}
+            Data Science &amp; Machine Learning Enthusiast | Analytical &amp; Problem-solving | Python &amp; System Design
           </p>
 
           <div className="hero-actions">

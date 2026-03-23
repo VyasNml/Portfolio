@@ -1,4 +1,4 @@
-const techBadges = ['.NET', 'Express', 'GO', 'Typescript', 'NEXT'];
+const techBadges = ['Adaptability', 'Communication'];
 
 const ShortProfile = () => {
   return (
@@ -16,15 +16,15 @@ const ShortProfile = () => {
         {/* Language card */}
         <div className="bento-card lang-card">
           <h3>
-            Fluent in English, Japanese and Mongolian (IELTS 7, N3)
+            Fluent in English and Malayalam, Able to communicate in Hindi
           </h3>
         </div>
 
         {/* Tech stack card */}
         <div className="bento-card tech-card">
           <div>
-            <p className="tech-card-label">My primary tech stack</p>
-            <p className="tech-card-main">NEXT, Express</p>
+            <p className="tech-card-main">SOFT SKILLS</p>
+            {/* <p className="tech-card-label">asdasd</p> */}
           </div>
           <div className="tech-badges">
             {techBadges.map((badge) => (
